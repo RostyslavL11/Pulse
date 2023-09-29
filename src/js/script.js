@@ -26,7 +26,8 @@ $(document).ready(function () {
             $(this).on('click', function (e) {
                 e.preventDefault();
                 $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
-                $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
+                // $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
+                $('.catalog-item__info').eq(i).toggleClass('catalog-item__info_active');
             })
         });
     }
