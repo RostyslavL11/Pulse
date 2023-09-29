@@ -108,7 +108,7 @@ $(document).ready(function () {
         }
     })
 
-    $("a[hrief^='#']").click(function () {
+    $("a[hrief^='#up']").click(function () {
         const _href = $(this).attr("href");
         $("html, body").animate({
             scrollTop: $(_href).offset().top + "px"
